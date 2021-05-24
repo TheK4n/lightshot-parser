@@ -19,8 +19,8 @@ STATIC_URL = 'https://prnt.sc/'  # 7  # https://prnt.sc/10i8n49
 
 chars_len = len(chars) - 1
 
-log_filename = FOLDER_NAME + '\\' + 'aaaaaa.log'
-cur_dir = os.curdir + '\\' + FOLDER_NAME
+log_filename = f'{FOLDER_NAME}\\aaaaaa.log'
+cur_dir = f'{os.curdir}\\{FOLDER_NAME}'
 
 
 def gen_img_url(start='aaaaaa'):
